@@ -1,6 +1,6 @@
 {
   "name": "cliconcat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "description": "Easily join media files in the CLI",
@@ -31,5 +31,4 @@
     "url": "https://github.com/jufabeck2202/cliconcat"
   },
   "homepage": "https://github.com/jufabeck2202/cliconcat#readme"
-  
 }
