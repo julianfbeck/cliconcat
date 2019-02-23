@@ -1,7 +1,7 @@
 
 # CliConcat
 <p >
-  <img width="700" src="https://rawgit.com/jufabeck2202/vitomuci/master/screenshot.svg">
+  <img width="700" src="https://rawcdn.githack.com/jufabeck2202/cliconcat/c0d161db214b84e279c5dc29acecaf7f64337150/cliconcat.svg">
 </p>
 
 > Concat Audio and Media files directly in the Cli
