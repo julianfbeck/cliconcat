@@ -1,15 +1,35 @@
 {
-  "name": "mp3Joiner",
+  "name": "cliconcat",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "description": "Easily join media files in the CLI",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.17",
-    "@ffprobe-installer/ffprobe": "^1.0.9",
-    "cli-progress": "^2.1.1",
+    "chalk": "^2.4.2",
     "cli-table3": "^0.5.1",
     "fluent-ffmpeg": "^2.1.2",
     "meow": "^5.0.0",
     "ora": "^3.1.0"
-  }
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "join",
+    "concat",
+    "audio",
+    "video",
+    "audio to one"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "cliconcat": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jufabeck2202/cliconcat"
+  },
+  "homepage": "https://github.com/jufabeck2202/cliconcat#readme"
+  
 }
