@@ -50,7 +50,6 @@ if (cli.flags.folder) {
         cli.showHelp();
         return;
     }
-    console.log(cli.input)
     cli.input.forEach(file => files.push(file));
 }
 if (cli.flags.output === undefined) {
@@ -58,8 +57,8 @@ if (cli.flags.output === undefined) {
     cli.showHelp()
     return
 }
+
 let output = cli.flags.output
-console.log(output)
 let table = new Table({
     head: ['Order:', 'Files:']
 });
@@ -69,7 +68,7 @@ files = files.filter(el => formats.includes(path.extname(el)))
 files.map((el, i) => {
     return [i + 1, el]
 }).forEach((el) => table.push(el))
-
+console.log(chalk.green(`Found ${files.length} Files:`))
 console.log(table.toString())
 const spinner = ora(`Merging ${files.length} Files`).start();
 files.reduce((prev, curr) => prev.input(curr), ffmpeg())
