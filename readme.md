@@ -1,5 +1,5 @@
 
-# CliConcat
+# CliConcat [![npm version](https://badge.fury.io/js/cliconcat.svg)](https://badge.fury.io/js/cliconcat)
 <p >
   <img width="700" src="https://rawcdn.githack.com/jufabeck2202/cliconcat/c0d161db214b84e279c5dc29acecaf7f64337150/cliconcat.svg">
 </p>
