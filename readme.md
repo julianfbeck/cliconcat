@@ -33,9 +33,9 @@ npm install -g cliconcat
 ```shell
     $ cliconcat 1.mp3 2.mp3 3.mp3 -o /path/to/output.mp3
 ```
-### Concat a folder of audio Files:
+### Concat a folder of media Files:
 ```shell
-    $ cliconcat -f /audiofolder -o /path/to/output.mp3 
+    $ cliconcat -f /audiobook -o /path/to/output.mp3 
 ```
 ### Options:
 **-f, --folder:** folder with audio files, cliconcat will concat all files alphabetically
